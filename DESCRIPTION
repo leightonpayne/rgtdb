@@ -14,6 +14,13 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
-    readr
+    cli,
+    dplyr,
+    httr,
+    magrittr,
+    readr,
+    rvest,
+    stringr,
+    tidyr
 URL: https://github.com/leightonpayne/rgtdb
 BugReports: https://github.com/leightonpayne/rgtdb/issues

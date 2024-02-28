@@ -118,7 +118,7 @@ cols_metadata <- readr::cols(
 #' @export
 read_metadata <- function(file) {
   cols <- cols_metadata
-  out <- readr::read_csv(file, col_names = names(cols$cols), col_types = cols,
+  out <- readr::read_tsv(file, col_names = names(cols$cols), col_types = cols,
                          progress = FALSE, skip = 1)
   out
 }
