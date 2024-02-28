@@ -15,3 +15,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     readr
+URL: https://github.com/leightonpayne/rgtdb
+BugReports: https://github.com/leightonpayne/rgtdb/issues
